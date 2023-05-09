@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPlant - Revolutionize Plant Care</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <style>
+		section {
+			margin-bottom: 50px;
+		}
+
+		.card .btn {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		.card-body {
+			position: relative;
+			min-height: 350px; /* Increase the min-height value to avoid overlapping */
+		}
+
+		blockquote .img-fluid {
+			display: none; /* Hide the images in the testimonial cards */
+		}
+
+		h2 {
+			padding-bottom:15px;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="path/to/smartplant_logo.png" alt="SmartPlant Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Revolutionize Your Plant Care with SmartPlant</h1>
+            <p class="lead">Monitor and care for your plants like never before with our innovative IoT device.</p>
+            <a class="btn btn-primary btn-lg" href="#pricing" role="button">Get Started</a>
+            <img src="path/to/hero_image.png" alt="SmartPlant Hero Image" class="img-fluid">
+        </div>
+    </section>
+
+    <section id="features" class="container">
+        <h2 class="text-center">Key Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-leaf fa-3x"></i>
+                    <h3>Real-time Health Monitoring</h3>
+                    <p>SmartPlant continuously monitors your plant's health and provides real-time data on soil moisture, temperature, and sunlight exposure.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-tint fa-3x"></i>
+                    <h3>Automated Watering Reminders</h3>
+                    <p>Receive automatic notifications when your plants need watering, ensuring they never go thirsty again.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center">
+                    <i class="fas fa-cogs fa-3x"></i>
+                    <h3>Personalized Plant Care Insights</h3>
+                    <p>Get tailored plant care recommendations based on your plant's unique data, including optimal watering schedules, ideal sunlight exposure, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="text-center">About SmartPlant</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Founded in 2023, SmartPlant is dedicated to helping you care for your plants in the most effective and efficient way possible. Our innovative IoT device, backed by advanced data analytics, is designed to revolutionize plant care.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="path/to/about_image.png" alt="About SmartPlant" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2 class="text-center">What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p>"SmartPlant has completely changed the way I care for my plants. I no longer have to guess when to water them or worry about providing the right amount of sunlight. It's a game-changer!"</p>
+                    <footer class="blockquote-footer">Jessica P. <cite title="Source Title"><img src="path/to/customer1_image.png" alt="Jessica P." class="img-fluid"></cite></footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p>"I've always struggled to keep my plants alive, but with SmartPlant, I've managed to maintain a thriving indoor garden. I highly recommend it!"</p>
+                    <footer class="blockquote-footer">Michael S. <cite title="Source Title"><img src="path/to/customer2_image.png" alt="Michael S." class="img-fluid"></cite></footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p>"The personalized plant care insights provided by SmartPlant have been incredibly helpful. My plants have never looked better!"</p>
+                    <footer class="blockquote-footer">Karen M. <cite title="Source Title"><img src="path/to/customer3_image.png" alt="Karen M." class="img-fluid"></cite></footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="container">
+        <h2 class="text-center">Choose Your Plan</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Basic</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-price">$19.99</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Real-time Health Monitoring</li>
+                            <li class="list-group-item">Automated Watering Reminders</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Pro</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-price">$29.99</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Real-time Health Monitoring</li>
+                            <li class="list-group-item">Automated Watering Reminders</li>
+                            <li class="list-group-item">Personalized Plant Care Insights</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Enterprise</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-price">$59.99</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Real-time Health Monitoring</li>
+                            <li class="list-group-item">Automated Watering Reminders</li>
+                            <li class="list-group-item">Personalized Plant Care Insights</li>
+                            <li class="list-group-item">Multi-device Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="container">
+        <h2 class="text-center">Frequently Asked Questions</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Is SmartPlant compatible with all types of plants?</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Yes, SmartPlant is designed to work with a wide variety of indoor and outdoor plants, including flowers, vegetables, and herbs.</p>
+                    </div>
+                </div>
+            </div>
+           <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">How do I set up my SmartPlant device?</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Setting up your SmartPlant device is easy. Just follow the instructions provided in the user manual, and you'll have your device up and running in no time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta_banner" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Ready to Revolutionize Your Plant Care?</h1>
+            <p class="lead">Join the thousands of satisfied customers who have transformed their plant care with SmartPlant.</p>
+            <a class="btn btn-primary btn-lg" href="#pricing" role="button">Buy Now</a>
+        </div>
+    </section>
+
+    <section id="signup" class="container">
+        <h2 class="text-center">Sign Up for Updates</h2>
+        <p class="text-center">Stay up-to-date on the latest news and promotions from SmartPlant by signing up for our newsletter.</p>
+        <form class="text-center">
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="path/to/smartplant_logo.png" alt="SmartPlant Logo" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center">&copy; 2023 SmartPlant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
